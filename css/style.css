@@ -8,13 +8,19 @@ header, main, footer, nav, aside, section, article  {
     display: block;
 }
 
-body {
-    font-family: 'Mulish';
-    width: 100%;
+header, main, footer {
+    padding: 0 25px;
 }
 
-#wrapper {
-    margin: 25px;
+header {
+    width: 100%;
+    margin-top: 25px;
+}
+
+body {
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    width: 100%;
 }
 
 #main-wrapper {
@@ -44,18 +50,12 @@ body {
 }
 
 h2 {
-    /* font-style: normal; */
     font-weight: 700;
     font-size: 36px;
     line-height: 56px;
 
     color: #000000;
     mix-blend-mode: normal;
-}
-
-header {
-    width: 100%;
-    margin-top: 15px;
 }
 
 #logo {
@@ -108,7 +108,6 @@ nav {
 #cover-photo {
     margin-top: 14px;
     width: 560.46px;
-    /* height: 475; */
 }
 
 #footer-nav a {
@@ -124,15 +123,22 @@ nav {
     margin-top: 63px;
 }
 
+#latest-articles-section {
+    margin-top: 70px;
+    height: 749px;
+}
+
 #cover-photo-section img:not(:last-child) {
     margin-right: 30px;
 }
 
-#main-section p {
+.main-section > p {
     font-weight: 300;
     font-size: 21px;
     line-height: 32px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
     color: #7D7987;
     mix-blend-mode: normal;
 }
@@ -161,6 +167,7 @@ nav {
 }
 
 #underline-white {
+    margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 221px;
     background: #FFFFFF;
@@ -178,13 +185,11 @@ nav {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-top: 4px;
-    margin-left: 1px;
     cursor: pointer;
 }
 
-#services-section {
-    margin-top: 60px;
+.services-section {
+    margin-top: 100px;
 }
 
 .services-flex-wrapper {
@@ -224,7 +229,7 @@ nav {
     font-weight: 700;
     font-size: 24px;
     line-height: 56px;
-    margin-top: 22px;
+    padding-top: 22px;
     
     color: #000000;
     mix-blend-mode: normal;
@@ -245,20 +250,8 @@ nav {
     height: 90px;
 }
 
-#main-section-p {
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 28px;
-    margin-top: 20px;
-
-    color: #7D7987;
-    mix-blend-mode: normal;
-}
-
-#service-p {
-    width: 850px;
-    font-family: 'Mulish';
-    font-style: normal;
+.services-section > p {
+    width: 952px;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
@@ -283,8 +276,6 @@ footer {
 
 footer h6 {
     margin-left: 25px;
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 300;
     font-size: 16px;
     line-height: 28px;
@@ -293,9 +284,9 @@ footer h6 {
     mix-blend-mode: normal;
 }
 
-#footer-social-section {
+.footer-social-section {
     margin-left: 25px;
-    padding-top: 50px;
+    padding-top: 43px;
     padding-bottom: 105px; 
 }
 
@@ -304,8 +295,6 @@ footer h6 {
 }
 
 #footer-nav a {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 60px;
@@ -315,7 +304,6 @@ footer h6 {
 }
 
 #footer-social-section a span {
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
@@ -342,20 +330,16 @@ footer h6 {
 }
 
 .testimonial-block-section > .testimonial-block-content > h2 {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 
     color: #FFFFFF;
     mix-blend-mode: normal;
 }
 
 .testimonial-block-section > .testimonial-block-content > p {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
@@ -374,8 +358,6 @@ footer h6 {
 }
 
 .testimonial-block-section > .testimonial-block-content > h3 {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     margin-bottom: 5px;
@@ -385,20 +367,11 @@ footer h6 {
 } 
 
 .testimonial-block-section > .testimonial-block-content > h4 {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
 
     color: rgba(255, 255, 255, 0.85);
     mix-blend-mode: normal;
-}
-
-#latest-articles-section {
-    margin-top: 70px;
-    height: 749px;
-    font-family: 'Mulish';
-    font-style: normal;
 }
 
 .article-flex-wrapper {
@@ -424,8 +397,6 @@ footer h6 {
 }
 
 .article-flex-wrapper > .article-flex-content > #article-padding > h3 {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 700;
     font-size: 21px;
     margin-top: 24px;
@@ -437,8 +408,6 @@ footer h6 {
 }
 
 .article-flex-wrapper > .article-flex-content > #article-padding > p {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 300;
     font-size: 16px;
     margin-top: 10px;
@@ -453,7 +422,6 @@ footer h6 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    font-style: normal;
     font-weight: 600;
     font-size: 17px;
     line-height: 28px;
@@ -485,8 +453,6 @@ footer h6 {
 }
 
 #page-title {
-    font-family: 'Mulish';
-    font-style: normal;
     font-weight: 700;
     font-size: 42px;
     line-height: 53px;
