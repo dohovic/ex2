@@ -110,15 +110,6 @@ nav {
     width: 560.46px;
 }
 
-#footer-nav a {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 60px;
-    margin-right: 15px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-}
-
 .main-section-top-margin {
     margin-top: 63px;
 }
@@ -286,18 +277,20 @@ footer h6 {
 
 .footer-social-section {
     margin-left: 25px;
-    padding-top: 43px;
+    padding-top: 50px;
     padding-bottom: 105px; 
 }
 
-#footer-nav {
-    height: 59.03px;
+.footer-nav {
+    margin-top: 0;
+    height: 59px;
 }
 
-#footer-nav a {
+.footer-social-section .footer-nav > a {
     font-weight: 700;
     font-size: 20px;
     line-height: 60px;
+    margin-right: 15px;
     
     color: #FFFFFF;
     mix-blend-mode: normal;
@@ -333,7 +326,6 @@ footer h6 {
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
-    /* margin-bottom: 10px; */
 
     color: #FFFFFF;
     mix-blend-mode: normal;
